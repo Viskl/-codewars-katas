@@ -4,7 +4,7 @@ public class XO {
 
     public static boolean getXO(String str) {
 
-        char[] charArr = str.toCharArray();
+        char[] charArr = str.toLowerCase().toCharArray();
 
         int xCounter = 0;
         int oCounter = 0;
