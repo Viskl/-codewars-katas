@@ -9,22 +9,16 @@ public class XO {
         int xCounter = 0;
         int oCounter = 0;
 
-        for (int i = 0; i < charArr.length; i++) {
-            if (charArr[i] == 'x') {
+        for (char c : charArr) {
+            if (c == 'x') {
                 xCounter++;
             }
-            if (charArr[i] == 'o') {
+            if (c == 'o') {
                 oCounter++;
             }
         }
 
-        boolean isEqual = false;
-
-        if (xCounter == oCounter) {
-            isEqual = true;
-        }
-
-        return isEqual;
+        return xCounter == oCounter;
     }
 
 }
