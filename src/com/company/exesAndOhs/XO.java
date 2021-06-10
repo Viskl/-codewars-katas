@@ -3,7 +3,6 @@ package com.company.exesAndOhs;
 public class XO {
 
     public static boolean getXO(String str) {
-
         char[] charArr = str.toLowerCase().toCharArray();
 
         int xCounter = 0;
